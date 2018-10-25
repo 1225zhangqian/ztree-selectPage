@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- <link rel="stylesheet" href="css/demo.css" type="text/css"> -->
+	<link rel="stylesheet" type="text/css" href="css/zTreeStyle/zTreeStyle.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/myStyleSelfAdaption.css"> 
+	<style type="text/css">
+		.col-xs-6{
+			width: 50%;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<p>可模糊搜索单选下拉树</p>
+	<div class="col-xs-6">
+			<div class="z-tree-screen" style="width:202px">
+				<div class="search-bar">
+					<input class="tree-world" type="text" placeholder="请选择" data-url="/js/dqSearch.json" readonly="readonly">
+					<input class="tree-input" type="hidden" name="xzdq" id="xzdq">
+					<div class="tree-button" data-url="/js/dq.json">
+						<i class="icon icon-node"></i>
+					</div>
+			    	<div style="clear: both;"></div>
+				</div>
+				<span class="ztree-warp">  
+					<div class="content">
+						<input class="searchInput">
+						<ul id="tree-obj" class="ztree"></ul>
+					</div>
+				</span>
+			</div> 
+	</div> 
+</body>
+
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.ztree.core.js"></script>
+<script type="text/javascript" src="js/jquery.ztree.excheck.js"></script>
+<script type="text/javascript" src="js/jquery.ztree.exhide.js"></script>  
+<script type="text/javascript" src="js/ztree-extend-single.js"></script>
+</html>

@@ -1,0 +1,76 @@
+
+
+.z-tree-screen {
+	/* padding: 20px; */
+}
+
+.z-tree-screen .content,
+.z-tree-screen .content1,
+.z-tree-screen .content3,
+.z-tree-screen .content4 {
+	position: absolute;
+	z-index:9999;
+	display: none;
+	width: 254px;
+	max-height: 200px;
+	overflow-y: auto;
+    padding: 2px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c5c5c5;
+    background-color: white;
+    border-radius: 0 0 3px 3px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.z-tree-screen input {
+	float: left;
+	width: 230px;
+	height: 30px;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 20px;
+    padding: 4px 0;
+    background-color: white;
+    border-radius: 3px 0 0 3px;
+    text-indent: .33em;
+    border: 1px solid;
+    border-color: #d5daeb;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    outline:none;
+    border-right: none;
+}
+
+
+.z-tree-screen .tree-button {
+	float: left;
+    padding: 4px 0 3px 0;
+	width: 30px;
+    background-color: white;
+	border: 1px solid;
+    border-color: #d5daeb;
+    border-left: none;
+	border-radius: 0 3px 3px 0;
+	cursor: pointer;
+}
+
+
+.z-tree-screen .icon-node {
+    background-position: -32px -240px;
+}
+.z-tree-screen .icon {
+    position: relative;
+    top: 3px;
+    left: 6px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../../../../img/common/select-arrow.png) 0 2px no-repeat; 
+    background-repeat: no-repeat;
+}

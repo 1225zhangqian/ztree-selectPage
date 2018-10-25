@@ -389,7 +389,7 @@ function initOrgTreeFunByJs(ztreeId, ztreeSearchId, ztreeOption) {
 }
 
 /**
- *解决现场字典错误，过滤多余节点
+ *解决XXXX错误，过滤多余节点
  * ------New----- 树初始化方法： ztreeId：树id ztreeSearchId：搜索框inputId
  * ztreeId：显示下拉树的容器id
  * ztreeSearchId：搜索框的id 
